@@ -10,7 +10,7 @@ export default async function MovieDetail({params: { id } }: {params: {id :strin
             </Suspense>
             <Suspense fallback={<h1>Loading movie videos</h1>}>
                 <MovieVideos id={id} />
-            </Suspense>   
+            </Suspense>
         </div> 
     );
 }
